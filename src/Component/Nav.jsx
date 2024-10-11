@@ -25,7 +25,7 @@ function Nav() {
               <ul className={`flex md:justify-end justify-center items-center flex-col md:flex-row gap-6 md:gap-10 font-bold text-[18px] left-0 md:right-[129px] top-24 md:top-10 absolute md:w-[90%] w-full md:bg-transparent bg-bgtext md:text-bgtext text-white cursor-pointer py-5 md:py-0 ${menu ? "top-20" : "top-[-490px]"}`}>
                 <li><Link to="home" spy={true} smooth={true} offset={-100} duration={500} >Home</Link></li>
                 <li><Link to="special" spy={true} smooth={true} offset={30} duration={500}>Special</Link></li>
-                <li><Link to="menu" spy={true} smooth={true} offset={50} duration={500}>Menu</Link></li>
+                <li><Link to="menu" spy={true} smooth={true} offset={25} duration={500}>Menu</Link></li>
                 <li><Link to="event" spy={true} smooth={true} offset={-30} duration={500}>Event</Link></li>
                 <li><Link to="form" spy={true} smooth={true} offset={-150} duration={500}>Contact Us</Link></li>
               </ul>

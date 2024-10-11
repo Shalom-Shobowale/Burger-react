@@ -1,7 +1,7 @@
-function BodyD(){
+function Event(){
     return(
         <div className="flex justify-center mt-20" id="event">
-            <div className="w-[90%] md:w-[80%] bg-bgBody shadow-inner shadow-gray-400 flex md:flex-row p-6 flex-col-reverse" data-aos="zoom-out-up" data-aos-duration="1000">
+            <div className="w-[90%] md:w-[80%] bg-bgBody shadow-inner shadow-gray-400 flex md:flex-row p-6 flex-col-reverse">
                 <div className="md:w-[50%] md:text-left text-center">
                     <h3 className="font-semibold ">DISCOVER</h3>
                     <h1 className="font-bold text-3xl md:text-[2.7em] my-5">UPCOMING EVENTS</h1>
@@ -14,4 +14,4 @@ function BodyD(){
         </div>
     );
 }
-export default BodyD;
+export default Event;

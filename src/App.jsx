@@ -1,16 +1,16 @@
 import Nav from "./Component/Nav";
-import BodyB from "./Component/Special";
-import BodyC from "./Component/Menu";
 import Cards from "./Component/Cards";
-import BodyD from "./Component/Event";
 import Form from "./Component/Form";
-import BodyE from "./Component/BodyE";
+import Event from "./Component/Event";
+import Special from "./Component/Special";
+import Menu from "./Component/Menu";
+import Footer from "./Component/Footer";
 function App() {
   return (
     <>
       <Nav />
-      <BodyB />
-      <BodyC />
+      <Special />
+      <Menu />
       <div className="flex justify-center items-center w-full mt-20">
         <div className="flex md:flex-row flex-col text-center w-[90%] md:w-[80%]">
           <Cards
@@ -59,9 +59,9 @@ function App() {
           />
         </div>
       </div>
-      <BodyD />
+      <Event />
       <Form />
-      <BodyE />
+      <Footer />
     </>
   );
 }

@@ -4,9 +4,9 @@ import { FaEnvelope } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaWhatsapp } from "react-icons/fa";
-function BodyE (){
+function Footer (){
     return(
-        <footer className="bg-fixed bg-cover bg-no-repeat text-bgBody flex flex-col items-center mt-24 md:mt-0" style={{backgroundImage:"url(footer.png)"}}>
+        <footer className="bg-fixed bg-cover bg-no-repeat text-bgBody flex flex-col items-center mt-32 md:mt-0" style={{backgroundImage:"url(footer.png)"}}>
            <div className="md:w-[80%] w-[90%] py-14">
                 <div>
                     <img src="logo-white.png" alt="" className="h-11"/>
@@ -33,4 +33,4 @@ function BodyE (){
         </footer>
     );
 }
-export default BodyE;
+export default Footer;
